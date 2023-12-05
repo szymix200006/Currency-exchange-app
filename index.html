@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <div class="app-container">
+        <div class="exchange-box">
+            <div class="amount-input"><input type="number" placeholder="amount..."></div>
+            <div class="currency-from-input"><input type="text" placeholder="from..." list="currencies-list">
+                <datalist id="currencies-list">
+                  <option value="Choose currency">
+                  </datalist>
+            </div>
+            <div class="buttons-container"><button class="convert-button"><img src="sync_alt_FILL0_wght400_GRAD0_opsz24.png"></button>
+                <button class="change-button"><img src="autorenew_FILL0_wght400_GRAD0_opsz24.png"></button></div>
+            <div class="currency-to-input"><input type="text" placeholder="to..." list="currencies-list">
+                <datalist id="currencies-list">
+                  <option value="Choose currency">
+                </datalist>
+            </div>
+            <div class="final-amount"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins$display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'
+}
+
+.app-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #337CCF;
+}
+
+.exchange-box {
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #191D88;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 0;
+}
+
+.exchange-box > div {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: antiquewhite;
+    font-size: 2em;
+}
+
+.final-amount {
+    color: aliceblue;
+    font-size:  2em;
+}
+
+input {
+    height: 40%;
+    width: 60%;
+    font-size: 2em;
+}
+
+button {
+    width: 10%;
+    height: 60%;
+    background-color: #337CCF;
+    border: 1px solid black;
+}
+
+button:hover {
+    border: 2px solid white;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.error-div {
+    width: 25%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(36, 72, 139);
+    flex-direction: column;
+    position: absolute;
+    z-index: 99;
+    font-size: 2em;
+    color: rgb(245, 239, 231);
+}
+
+.error-buttons {
+    width: 50%;
+    height: 20%;
+    background-color: rgb(202, 20, 20);
+    color: aliceblue;
+    margin-top: 5%;
+    font-size: 1.3em;
+    border: none;
+    transition: 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.error-buttons:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+}
